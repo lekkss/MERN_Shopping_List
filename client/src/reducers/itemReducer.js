@@ -4,6 +4,7 @@ const initialState = {
     loading: false
 }
 
+//eslint-disable-next-line 
 export default function (state = initialState, action) {
     switch (action.type) {
         case GET_ITEMS:
@@ -15,7 +16,7 @@ export default function (state = initialState, action) {
         case DELETE_ITEM:
             return {
                 ...state,
-                items: state.items.filter(item => item._id !==action.payload)
+                items: state.items.filter(item => item._id !== action.payload)
             };
         case ADD_ITEM:
             return {

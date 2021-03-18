@@ -14,10 +14,13 @@
   "author": "Afolabi OLuwasegun",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "bcryptjs": "^2.4.3",
     "concurrently": "^6.0.0",
+    "config": "^3.3.6",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7",
     "redux-devtools-extension": "^2.13.9"
   }
 }
